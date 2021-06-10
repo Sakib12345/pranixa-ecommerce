@@ -81,6 +81,7 @@ Navigation
 */
 
 .navigation {
+  background-color:#1976d2;
   position: relative;
   height: 7rem;
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
@@ -93,6 +94,7 @@ Navigation
   height: 100%;
   height: 7rem;
   padding: 0 1rem;
+  color:white;
 }
 
 .fix__nav {
@@ -100,7 +102,7 @@ Navigation
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--white);
+  background-color: #1976d2;
   z-index: 1200;
 }
 
@@ -143,14 +145,16 @@ Navigation
 .nav__list .nav__link:link,
 .nav__list .nav__link:visited {
   display: inline-block;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  padding-left: 40px;
+  font-weight: bold;
   text-transform: uppercase;
-  color: var(--black);
+  color: white;
   transition: color 0.3s ease-in-out;
 }
 
 .nav__list .nav__link:hover {
-  color: var(--orange);
+  color: rgb(190, 38, 0);
 }
 
 .nav__icons {
@@ -168,7 +172,7 @@ Navigation
   justify-content: center;
   align-items: center;
   padding: 0.7rem;
-  border: 1px solid var(--black);
+  border: 1px solid var(--white);
   border-radius: 50%;
   transition: background-color 0.3s ease-in-out;
 }
@@ -398,7 +402,7 @@ Hero Area
   /* align-items: center; */
   /* justify-content: center; */
   position: relative;
-  max-width: 114rem;
+  /* max-width: 114rem; */
   margin: 0 auto;
   height: 70%;
   padding-top: 2rem;
@@ -526,7 +530,7 @@ Collection
   padding: 1rem;
   flex: 0 0 48%;
   height: 30rem;
-  background-color: #F4E2C8;
+  background-color: #F4E2C8 !important;
 }
 
 .collection__box:not(:last-child) {
@@ -545,7 +549,10 @@ Collection
 .collection__box img.collection_02 {
   width: 100%;
 }
-
+.collection__container :hover{
+  transform: scale(1.02);
+  transition: 0.8s ease-in-out;
+}
 .collection__content {
   flex: 0 0 50%;
   height: 100%;
@@ -647,7 +654,8 @@ Latest Products
   justify-content: center;
   margin: 0 auto 6rem;
   padding: 2rem 0;
-  background-color: var(--primaryColor);
+  background-color:#1976d2;
+  color:white
 }
 
 .section__titles:not(:last-child) {
@@ -830,8 +838,12 @@ span.dot::before {
   height: 25rem;
   padding: 0.5rem 0;
   text-align: center;
+  border-radius: 10px;
 }
-
+.product__header :hover{
+  transform: scale(1.1);
+  transition: 0.8s;
+}
 .product__header img {
   max-width: 100%;
   max-height: 100%;
@@ -845,6 +857,7 @@ span.dot::before {
   width: 1.6rem;
   height: 1.6rem;
   fill: var(--yellow);
+  display: none;
 }
 
 .product__footer h3 {
@@ -875,7 +888,7 @@ span.dot::before {
 }
 
 .product__btn:hover {
-  background-color: var(--black);
+  background-color: #1976d2;
   color: var(--primaryColor);
 }
 
@@ -1335,7 +1348,7 @@ Facility
 */
 
 .facility__section {
-  background-color: var(--primaryColor);
+  background-color: rgb(25, 118, 210);
   padding: 6rem 0;
 }
 
@@ -1653,7 +1666,7 @@ NewsLetter
   display: inline-block;
   padding: 1.4rem 3rem;
   margin-left: -0.5rem;
-  background-color: var(--black);
+  background-color: #1976d2;
   color: var(--white);
   transition: 0.3s;
 }
@@ -1728,7 +1741,7 @@ Footer
 */
 
 .footer {
-  background-color: var(--black3);
+  background-color: #1976d2;
   padding: 6rem 1rem;
   line-height: 3rem;
 }
@@ -1736,7 +1749,7 @@ Footer
 .footer-top__box span svg {
   width: 1.6rem;
   height: 1.6rem;
-  fill: var(--grey3);
+  fill: white;
 }
 
 .footer-top__box span {
@@ -1746,13 +1759,13 @@ Footer
 .footer__top {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  color: var(--grey3);
+  color: white;
 }
 
 .footer-top__box a:link,
 .footer-top__box a:visited {
   display: block;
-  color: var(--grey);
+  color: white;
   font-size: 1.4rem;
   transition: 0.6s;
 }
@@ -1762,7 +1775,7 @@ Footer
 }
 
 .footer-top__box div {
-  color: var(--grey);
+  color: white;
   font-size: 1.4rem;
 }
 
