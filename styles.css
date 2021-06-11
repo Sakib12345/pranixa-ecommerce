@@ -492,7 +492,7 @@ Hero Media Query
 @media only screen and (max-width: 567px) {
   .hero,
   .hero .glide__slides {
-    height: 60vh;
+    height: 25vh;
   }
 
   .hero__right {
@@ -965,6 +965,9 @@ Latest Products Media Query
 }
 
 @media only screen and (max-width: 578px) {
+  .product {
+    width: 90%;
+  }
   .product__header {
     height: 20rem;
   }
@@ -975,7 +978,7 @@ Latest Products Media Query
   }
 
   .product__header img {
-    width: 50%;
+    width: 100%;
   }
 
   .product__footer h3 {
