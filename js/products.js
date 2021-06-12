@@ -29,6 +29,9 @@ const displayProductItems = items => {
                       <img src=${product.image} alt="product">
                     </div>
                     <div class="product__footer">
+                    <a href="#"><button type="submit" class="product__btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    </button></a>
                       <h3>${product.title}</h3>
                       <div class="rating">
                         <svg>
@@ -50,7 +53,6 @@ const displayProductItems = items => {
                       <div class="product__price">
                         <h4>$${product.price}</h4>
                       </div>
-                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
                     </div>
                   <ul>
                       <li>

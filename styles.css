@@ -81,7 +81,7 @@ Navigation
 */
 
 .navigation {
-  background-color:#1976d2;
+  background-color: #283593;
   position: relative;
   height: 7rem;
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
@@ -102,7 +102,7 @@ Navigation
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #1976d2;
+  background-color: #283593;
   z-index: 1200;
 }
 
@@ -154,7 +154,8 @@ Navigation
 }
 
 .nav__list .nav__link:hover {
-  color: rgb(190, 38, 0);
+  color: #FF5722;
+  
 }
 
 .nav__icons {
@@ -165,6 +166,7 @@ Navigation
 .nav__icons .icon__item svg {
   width: 1.6rem;
   height: 1.6rem;
+  background-color: #FF5722
 }
 
 .nav__icons .icon__item {
@@ -175,6 +177,7 @@ Navigation
   border: 1px solid var(--white);
   border-radius: 50%;
   transition: background-color 0.3s ease-in-out;
+  background-color: #FF5722
 }
 
 .nav__icons .icon__item:link,
@@ -183,7 +186,7 @@ Navigation
 }
 
 .nav__icons .icon__item:hover {
-  background-color: var(--orange);
+  background-color: #FF5722;
   border: 1px solid var(--black);
 }
 
@@ -507,7 +510,7 @@ Collection
 */
 
 .section {
-  padding: 3rem 0;
+  /* padding: 3rem 0; */
 }
 
 .collection {
@@ -652,9 +655,9 @@ Latest Products
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 6rem;
+  margin: 30px auto 4rem;
   padding: 2rem 0;
-  background-color:#1976d2;
+  background-color:#283593;
   color:white
 }
 
@@ -722,7 +725,6 @@ span.dot::before {
 
 .product {
   position: relative;
-  text-align: center;
 }
 
 .product ul svg {
@@ -830,7 +832,6 @@ span.dot::before {
 .product {
   display: flex;
   flex-direction: column;
-  text-align: center;
   width: 25rem;
 }
 
@@ -857,7 +858,6 @@ span.dot::before {
   width: 1.6rem;
   height: 1.6rem;
   fill: var(--yellow);
-  display: none;
 }
 
 .product__footer h3 {
@@ -866,6 +866,7 @@ span.dot::before {
 
 .product__footer .product__price {
   padding-bottom: 1rem;
+  color: rgb(199, 3, 3);
 }
 
 .product__footer h3 {
@@ -873,14 +874,23 @@ span.dot::before {
 }
 
 .product__btn {
-  display: inline-block;
+  float: right;
   font-weight: 700;
-  text-transform: uppercase;
-  width: 100%;
-  padding: 1.4rem 0;
-  border: 1px solid var(--black);
-  color: var(--black);
+  font-size: 20px;
+  border-radius: 50px;
+  width: 25%;
+  height: 55px;
+  border:none;
+  color: var(--white);
   cursor: pointer;
+  background-color: #FF5722;
+  box-shadow: 2px 2px 5px rgb(141, 140, 140);
+}
+h3{
+  font-weight: 700;
+}
+h4{
+  font-weight: 600;
 }
 
 .product__btn:focus {
@@ -888,8 +898,8 @@ span.dot::before {
 }
 
 .product__btn:hover {
-  background-color: #1976d2;
-  color: var(--primaryColor);
+  transform: translate(0px, -20px);
+  transition: all 0.5s ease-in-out;
 }
 
 .latest__products .glide__arrow,
@@ -1213,7 +1223,7 @@ Go Up
   bottom: 10%;
   padding: 0.8rem 1.4rem;
   border-radius: 1rem;
-  background-color: var(--orange);
+  background-color: #FF5722;
   visibility: hidden;
   cursor: pointer;
   transition: 0.3s;
@@ -1351,8 +1361,9 @@ Facility
 */
 
 .facility__section {
-  background-color: rgb(25, 118, 210);
+  background-color: #283593;
   padding: 6rem 0;
+  margin: 50px 0px;
 }
 
 .facility__contianer {
@@ -1669,7 +1680,7 @@ NewsLetter
   display: inline-block;
   padding: 1.4rem 3rem;
   margin-left: -0.5rem;
-  background-color: #1976d2;
+  background-color: #283593;
   color: var(--white);
   transition: 0.3s;
 }
@@ -1744,7 +1755,7 @@ Footer
 */
 
 .footer {
-  background-color: #1976d2;
+  background-color: #283593;
   padding: 6rem 1rem;
   line-height: 3rem;
 }
