@@ -599,7 +599,7 @@ Collection Media Query
 @media only screen and (max-width: 999px) {
   .collection__container {
     width: 80%;
-    margin: 0 auto;
+    margin-top: 50px;
     flex-direction: column;
     height: 65rem;
   }
@@ -1727,9 +1727,9 @@ Newsletter Media Query
 }
 
 @media only screen and (max-width: 568px) {
-  .container{
+  /* .container{
     margin-top: 50px;
-  }
+  } */
   .product__btn{
     width: 20%;
     height:30px;
