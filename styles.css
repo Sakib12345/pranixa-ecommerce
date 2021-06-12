@@ -327,6 +327,7 @@ Navigation Media Query
 }
 
 @media only screen and (max-width: 568px) {
+  
   .nav__icons .icon__item svg {
     width: 1.4rem;
     height: 1.4rem;
@@ -823,7 +824,6 @@ span.dot::before {
   .title__container {
     flex-direction: column;
   }
-
   .section__titles:not(:last-child) {
     margin: 0 0 1.3rem;
   }
@@ -981,7 +981,6 @@ Latest Products Media Query
   .product__header {
     height: 20rem;
   }
-
   .product__btn:hover {
     background-color: var(--black);
     color: var(--primaryColor);
@@ -1728,6 +1727,14 @@ Newsletter Media Query
 }
 
 @media only screen and (max-width: 568px) {
+  .container{
+    margin-top: 50px;
+  }
+  .product__btn{
+    width: 20%;
+    height:30px;
+    border: none;
+  }
   .newsletter__email {
     width: 23rem;
     font-size: 1.2rem;
